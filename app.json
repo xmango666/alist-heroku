@@ -12,8 +12,8 @@
        "value": "root"
     },
     "CTITLE": {
-       "description": "网站标题",
-       "value": "Alist on heroku"
+       "description": "网页标题",
+       "value": "Alist - 我的阿里云盘镜像下载站"
     },
     "DPASSWORD": {
        "description": "重构目录密码",
