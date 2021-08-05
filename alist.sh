@@ -12,10 +12,10 @@ cat >/alist/config/conf.yml <<EOF
 info:
   title: $CTITLE
   logo:
-  footer_text: Cooluc's Blog
-  footer_url: https://www.cooluc.com/
-  music_img: https://cdn.jsdelivr.net/gh/sbwml/cdn@master/img/0f8b57866bdb5.gif
-  check_update: false
+  footer_text: $CFooterText
+  footer_url: $CFooterUrl
+  music_img: $CMusicImg
+  check_update: $CCheckUpdate
   script: ""
   autoplay: true
   preview:
