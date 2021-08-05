@@ -3,20 +3,36 @@
   "description": "Alist on Heroku",
   "keywords": ["Alist"],
   "env": {
+    "CTITLE": {
+       "description": "网页标题",
+       "value": "Alist - 我的阿里云盘镜像下载站"
+    },
+    "CFooterText": {
+       "description": "网页底部文字",
+       "value": "我的主页"
+    },
+    "CFooterUrl": {
+       "description": "网页底部链接",
+       "value": "http://my.1234wu.net/i/?diy"
+    },
+    "CMusicImg": {
+       "description": "音乐播放图片",
+       "value": "https://cdn.jsdelivr.net/gh/sbwml/cdn@master/img/0f8b57866bdb5.gif"
+    },
+    "CCheckUpdate": {
+       "description": "是否检测程序更新（默认关闭即可）",
+       "value": "false"
+    },
     "ATOKEN": {
-       "description": "输入 refresh_token 或 包含 refresh_token 的 URL",
+       "description": "（重要）输入refresh_token或包含refresh_token的URL",
        "value": ""
     },
     "BFOLDER": {
        "description": "挂载指定目录（填写目录 UUID）",
        "value": "root"
     },
-    "CTITLE": {
-       "description": "网页标题",
-       "value": "Alist - 我的阿里云盘镜像下载站"
-    },
     "DPASSWORD": {
-       "description": "重构目录密码",
+       "description": "（重要）重构目录密码",
        "value": "password"
     }
   },
